@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+
+    <title>Danish Shabbir</title>
+    <link rel="stylesheet" href="resourses/style.css" />    
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Noto+Sans+KR&display=swap" rel="stylesheet"/>
+    <script src="javascript.js" defer></script>
+  </head>
+
+  <body>
+    <header>
+      <nav>
+        <div>
+          <h1>Danish Shabbir</h1>
+        </div>
+        <ul>
+          <li><a href="#aboutMe">About</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+      <hr />
+    </header>
+
+    <main>
+      <section id="aboutMe">
+        <div >
+          <div class="words">
+            <img class="portrait" alt="Danish Shabbir" src="resourses/my-pic.jpeg"/>
+            <h2>About Me</h2>
+            <p>
+              Hi! I'm Danish and am a software engineer and a history
+              lover. I have a degree in BSc Electrical Engineering. I love
+              developing software and solving real-world challenges. I pursue 
+              a balance between perfection and efficiency. I want to present 
+              my ideas to the world!
+            </p>
+            <p>
+              I invest my free energy composing stories and in reading books. I'm continually 
+              working on my abilities and trust one day I can convey some amazing works.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section id="projects">
+        <h2>Projects</h2>
+        <div id="p1" class="project">
+          <div onclick="showHide('p1')" class="projectTitle">
+            <h3><span>&#8594</span>Skin Care Website</h3>
+            <img class="blackIcon" alt="HTML" src="resourses/icons/html_black.png" />
+            <img class="blackIcon" alt="CSS" src="resourses/icons/css-logo.png" />
+            <img class="blackIcon" alt="CSS" src="resourses/icons/bootstrap-logo-black-and-white.png"/>
+          </div>
+          <p>
+            This <a href="https://tfacialroom.com/" target="newtab">website</a> 
+            is made with using HTML, CSS and bootstrap languages.
+          </p>
+          <p>
+            I designed the Website and built it from scratch.
+          </p>
+        </div>
+
+        <div id="p2" class="project">
+            
+          <div onclick="showHide('p2')" class="projectTitle">
+            <h3 ><span>&#8594</span> Baby cloth Website</h3>
+            <img class="blackIcon" alt="HTML" src="resourses/icons/html_black.png" />
+            <img class="blackIcon" alt="CSS" src="resourses/icons/css-logo.png" />
+            <img class="blackIcon" alt="CSS" src="resourses/icons/bootstrap-logo-black-and-white.png"/>
+          </div>
+
+          <p>
+            This <a href="https://designsbyels.com/" target="newtab">website</a>  
+            is made with using HTML, CSS and bootstrap languages.
+          </p>
+          <p>
+            I designed the Website and built it from scratch.
+          </p>
+        </div>
+
+        <div id="p3" class="project">
+          
+          <div onclick="showHide('p3')" class="projectTitle">
+            <h3 ><span>&#8594</span> Pretty Little Prints By kiera</h3>
+            <img class="blackIcon" alt="HTML" src="resourses/icons/html_black.png" />
+            <img class="blackIcon" alt="CSS" src="resourses/icons/css-logo.png" />
+            <img class="blackIcon" alt="CSS" src="resourses/icons/bootstrap-logo-black-and-white.png"/>
+          </div>
+          <p>
+            This <a href="https://www.prettylittleprintsbykiera.com/" target="newtab">website</a>  
+            is made with using HTML, CSS and bootstrap languages.
+          </p>
+          <p>
+            I designed the Website and built it from scratch.
+          </p>
+        </div>
+
+        <div id="p4" class="project">
+          <div onclick="showHide('p4')" class="projectTitle">
+            <h3><span>&#8594</span> Bootstrap Codecademy Project</h3>
+            <img class="blackIcon" alt="Bootstrap" src="resourses/icons/bootstrap-logo-black-and-white.png" />
+            <img class="blackIcon" alt="HTML" src="resourses/icons/html_black.png" />
+          </div>
+          <p>
+            This <a href="./resourses/website-links/bootstrap-codecademy.html" target="newtab">website</a>  
+            is made with using HTML, CSS and bootstrap languages.
+          </p>
+          <p>
+            I designed the Website and built it from scratch.
+          </p>
+        </div>
+
+        <div id="p5" class="project">
+          <div onclick="showHide('p5')" class="projectTitle">
+            <h3><span>&#8594</span> Adhoc Project Bootstrap</h3>
+            <img class="blackIcon" alt="Bootstrap" src="resourses/icons/bootstrap-logo-black-and-white.png"  />
+            <img class="blackIcon" alt="HTML" src="resourses/icons/html_black.png" />
+          </div>
+          <p>
+            This <a href="./resourses/website-links/Adhoc-bootstrap-project.html" target="newtab">website</a>  
+            is made with using HTML, CSS and bootstrap languages.
+          </p>
+          <p>
+            I designed the Website and built it from scratch.
+          </p>
+        </div>
+      </section>
+
+      <section id="skills">
+        <h2>Skills</h2>
+        <div class="icons">
+          <img class="colorIcon" alt="HTML5" title="HTML"src="resourses/icons/html.png" />
+          <img class="colorIcon" alt="CSS" title="CSS" src="resourses/icons/css.png" />
+          <img class="colorIcon" alt="JavaScript" title="javascript" src="resourses/icons/javascript.png" />
+          <img class="colorIcon" alt="Linux" title="Linux" src="resourses/icons/linux.png" /> 
+          <img class="colorIcon" alt="Git" title="Git" src="resourses/icons/git.png" />
+        </div>
+      </section>
+
+      <section>
+        <h2>Contact</h2>
+        <p>Want to know more about me? I would love to hear from you!</p>
+        <div class="container">
+          <form action="#" id="form">
+            <label for="fname">Full Name</label>
+            <input type="text" id="fname" name="fullname" placeholder="Your name..">
+            
+            <label for="subject">Subject</label>
+            <input type="text" id="subject" name="Subject" placeholder="Subject..">
+            
+            <label for="Message">Message</label>
+            <textarea id="Message" name="Message" placeholder="Write something.." style="height: 150px"></textarea>
+            <input type="submit" value="Submit">
+          </form>
+          <p id="log"></p>
+        </div>
+      </section>
+
+    </main>
+    <footer>
+      <section id="contact">
+      <div class="icons space" >
+        <a href="https://www.linkedin.com/in/danish-shabbir-60a435193/"
+          ><img class="blackIcon" alt="LinkedIn" src="resourses/icons/linkedin.png"
+        /></a>
+        <a href="https://github.com/Danish864"
+          ><img class="blackIcon" alt="GitHub" src="resourses/icons/github.png"
+        /></a>
+        <a href="mailto:engrdanish864@gmail.com"
+          ><img class="blackIcon" alt="Email" src="resourses/icons/email.png"
+        /></a>
+      </div>
+      <p>Made by Danish Shabbir</p>
+    </section>
+    </footer>
+  </body>
+</html>
