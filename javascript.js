@@ -18,6 +18,7 @@ const log = document.getElementById("log");
 form.addEventListener("submit", logSubmit);
 
 function logSubmit(event) {
-  log.textContent = "Message sent successfully. I will contact you soon";
+  log.textContent =
+    "Message not sent. Please contact me through email engrdanish864@gmail.com";
   event.preventDefault();
 }
